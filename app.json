@@ -25,6 +25,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": ""
+    "description": "This tutorial used:  https://facebook.github.io/react-native/docs/getting-started.html",
+    "githubUrl": "https://github.com/szjanikowski/rn-sample"
   }
 }
