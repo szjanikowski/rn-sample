@@ -28,7 +28,11 @@ export default class HomeScreen extends React.Component {
           <View style={styles.getStartedContainer}>
             {/* {this._maybeRenderDevelopmentModeWarning()} */}
 
-            <Text style={styles.getStartedText}><Text style={{fontWeight: "bold"}}>{"\n"}Hej Tomek,{"\n"}</Text> wygląda na to, ze moglibyśmy zacząć od aplikacji w react-native. Start jest bajecznie prosty jesli uzyje sie biblioteki expo :) Podstawowe modyfikacje tez nie powinny byc trudne :) I od razu dziala na Android i iOS! W dodatku mozna testowac wszystko na zywo na wielu urzadzeniach jednoczesnie :)  </Text>
+            <Text style={styles.getStartedText}><Text style={{fontWeight: "bold"}}>{"\n"}Hej Tomek,{"\n"}</Text> wygląda na to, ze moglibyśmy zacząć od aplikacji w react-native. Start jest bajecznie prosty jesli uzyje sie biblioteki expo :) Podstawowe modyfikacje tez nie powinny byc trudne :) I od razu dziala na Android i iOS! W dodatku mozna testowac wszystko na zywo na wielu urzadzeniach jednoczesnie :) 
+            {"\n"}{"\n"}
+            Krzys jest tu ze mna i pozdrawia!
+
+             </Text>
 
             {/* <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
               <MonoText style={styles.codeHighlightText}>screens/HomeScreen.js</MonoText>
@@ -44,7 +48,7 @@ export default class HomeScreen extends React.Component {
               source={
                 __DEV__
                   ? require('../assets/images/bananadance.gif')
-                  : require('../assets/images/robot-prod.png')
+                  : require('../assets/images/bananadance.gif')
               }
               style={styles.welcomeImage}
             />
